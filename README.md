@@ -7,6 +7,30 @@
 
 ## Steps to run and execute a program in local
 - Clone the Repository
-- python manage.py runserver it opens local host : http://127.0.0.1:8000/
+- Execute python manage.py runserver in cmd it opens local host : http://127.0.0.1:8000/-
 - if you want to use local db settings change the configuration in settings.py default its using aws postgres
 - Open the post man and request the URI as shown in the documention link
+
+
+## Schemas
+## Table Name : Availability
+| slot_id(pk)   | Vehicle Availability |
+| ------------- | ------------- |
+| slot value  | vehicles available in this slot  |
+
+1. slot 1 -> (6-9)
+2. slot 2 -> (9-13)
+3. slot 3 -> (16-19)
+4. slot 4 -> (19-23)
+
+## Table Name : Capacity
+| vehicle_id(pk)   | Vehicle Capacity |
+| ------------- | ------------- |
+| vehicled id  | capacity of the vehicle  |
+
+
+## Table Name : VehiclesPerDay
+| vehicle_id(pk)   | Vehicle type | vehicle count per day |
+| ------------- | ------------- | ----------------------- |
+| vehicled id  | type of the vehicle  | for this particular type how many vehicles are available per day |
+
