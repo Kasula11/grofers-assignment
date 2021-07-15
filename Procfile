@@ -1,0 +1,1 @@
+web gunicorn ka11-assignment.wasgi:application --log-file -
