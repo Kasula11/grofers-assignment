@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'ka11-assignment.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dmu42p351a3lj',
+        'HOST': 'ec2-52-0-67-144.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'abenhzpemdxnjh',
+        'PASSWORD': 'f6e761874dc12ca22368de0e77456ef6f1a3683efbd6fc9845d0452ee57c604e'
     }
 }
 
