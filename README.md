@@ -35,4 +35,5 @@
 | vehicled id  | type of the vehicle  | for this particular type how many vehicles are available per day |
 
 
+##Code logic 
 https://github.com/Kasula11/grofers-assignment/blob/df2ff4c4713aa313424c1b9305bebbfdc90cf9f0/restapi/views.py#L51-L72
