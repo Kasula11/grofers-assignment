@@ -1,5 +1,5 @@
 """
-WSGI config for assignment project.
+WSGI config for ka11-assignment project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'assignment.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ka11-assignment.settings')
 
 application = get_wsgi_application()
